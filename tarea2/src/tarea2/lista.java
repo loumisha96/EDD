@@ -49,10 +49,8 @@ public class lista {
        else 
            return false;
    }
-   public void cuantos(String e){
-      if(esvacia()){
-          cont = 0;
-      } 
+   public void cuantos(){
+       System.out.println(cont);
    }
    public void recorrer_mostrar(){
         bolsa aux;
