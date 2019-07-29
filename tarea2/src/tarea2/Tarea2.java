@@ -25,7 +25,7 @@ public class Tarea2 {
         lista.insertar(b, "x");
         lista.insertar(c, "y");
        lista.insertar(d, "z");
-       lista.insertar(e, "a");
+       
         lista.recorrer_mostrar();
         
         
