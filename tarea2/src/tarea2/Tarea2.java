@@ -17,12 +17,16 @@ public class Tarea2 {
      */
     public static void main(String[] args) {
         
-        
-        bolsa a = new bolsa();
-        a.insertar(a, "X");
-        a.insertar(a, "y");
-        a.insertar(a, "z");
-        a.recorrer_mostrar();
+        lista lista = new lista();
+        bolsa b = new bolsa();
+        bolsa c = new bolsa();
+        bolsa d = new bolsa();
+        bolsa e = new bolsa();
+        lista.insertar(b, "x");
+        lista.insertar(c, "y");
+       lista.insertar(d, "z");
+       lista.insertar(e, "a");
+        lista.recorrer_mostrar();
         
         
     }
