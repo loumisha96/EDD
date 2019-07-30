@@ -18,7 +18,7 @@ public class lista {
         cont = 0;
     }
     
-    public void insertar(bolsa Bolsa, String e){
+    public void insertar(bolsa Bolsa, Object e){
       if(esvacia()){
           Bolsa.elemento = e;
           inicio = Bolsa;
@@ -42,6 +42,7 @@ public class lista {
           cont++;
       }
    }
+   
    public boolean esvacia(){
        if(inicio == null){
            return true;
@@ -50,7 +51,11 @@ public class lista {
            return false;
    }
    public void cuantos(){
-       System.out.println(cont);
+       if (cont == 0){
+           System.out.println("No hay valores agregados");
+       }
+       else
+            System.out.println(cont + "valores agregados");
    }
    public void recorrer_mostrar(){
         bolsa aux;

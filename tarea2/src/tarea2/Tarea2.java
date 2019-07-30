@@ -24,11 +24,9 @@ public class Tarea2 {
         bolsa e = new bolsa();
         lista.insertar(b, "x");
         lista.insertar(c, "y");
-       lista.insertar(d, "z");
-       
+        lista.insertar(d, "z");
         lista.recorrer_mostrar();
-        
-        
     }
+    
     
 }
