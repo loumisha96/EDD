@@ -28,17 +28,12 @@ public class lista {
       }
       else{
           Bolsa.elemento = e;
-          System.out.println(e + " ingresa");
-          System.out.println("Inicio" + inicio.elemento);
           bolsa aux = inicio;
           while(aux.sig != inicio){
               aux = aux.sig;
-              System.out.println(aux.elemento+ "acá voy");
           }
           aux.sig = Bolsa;
           Bolsa.sig = inicio;
-          
-          
           cont++;
       }
    }
